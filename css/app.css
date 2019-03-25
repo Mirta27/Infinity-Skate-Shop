@@ -1,0 +1,57 @@
+.carouselSuperWrap {
+  background: #f8f9fa;
+  padding: 10px; }
+  .carouselSuperWrap .carousel-images {
+    padding: 0; }
+
+.carousel-sidebar-wrapper {
+  padding-left: 10px; }
+  .carousel-sidebar-wrapper h5 {
+    text-align: center;
+    font-size: 1.3rem;
+    padding-left: 5px;
+    padding-bottom: 5px; }
+  .carousel-sidebar-wrapper p {
+    text-align: justify; }
+
+@media screen and (max-width: 600px) {
+  div.carouselSuperWrap {
+    padding: 0;
+    margin: 0; }
+    div.carouselSuperWrap .carousel-images {
+      padding: 10px 0; } }
+#navbarNavDropdown .navbar-nav .nav-item .nav-link {
+  font-size: 1.1em; }
+
+.navlogo {
+  text-transform: uppercase;
+  font-family: schmalfette, impact, sans-serif;
+  font-size: 2.2em;
+  letter-spacing: 4px; }
+
+.navbar-shopping-cart {
+  margin-left: 50px; }
+
+.welcome {
+  text-align: center;
+  text-shadow: 3px 3px 12px black;
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  background: none; }
+  .welcome h1, .welcome p {
+    color: #f8f9fa; }
+
+@media screen and (max-width: 600px) {
+  .welcome h1 {
+    font-size: 2.3rem; }
+  .welcome p {
+    font-size: 0.9rem; } }
+body {
+  background-image: url("../img/shadow-2232527_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/*# sourceMappingURL=app.css.map */
